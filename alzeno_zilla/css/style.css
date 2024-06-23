@@ -1,0 +1,91 @@
+form {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('image/foto.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  body {
+    height: 360px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.084);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.016);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.749);
+    padding: 50px 35px;
+  }
+  
+  form * {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+  }
+  
+  form h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  input {
+    display: block;
+    height: 50px;
+    width: 94%;
+    background-color: rgba(255, 255, 255, 0.443);
+    border-radius: 20px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  ::placeholder {
+    color: #0000007f;
+  }
+  
+  button {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media only screen and (max-width: 600px) {
+    body {
+      width: 100%;
+      height: auto;
+      top: 0;
+      left: 0;
+      transform: none;
+      border-radius: 0;
+      padding: 20px;
+    }
+  }
+  
